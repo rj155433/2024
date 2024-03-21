@@ -13,3 +13,8 @@ INSERT INTO Film (Titel, Länge, Jahr, RegisseurID) VALUES
 ('Der Pate', 175, 1972, 3),          -- Francis Ford Coppola
 ('Der Marsianer', 151, 2015, 4),     -- Ridley Scott
 ('Intime', 109, 2011, 5);            -- Michel Hazanavicius
+
+
+DELETE FROM FILM WHERE FilmID > 5 
+DELETE FROM Regisseur WHERE RegisseurID > 5
+
